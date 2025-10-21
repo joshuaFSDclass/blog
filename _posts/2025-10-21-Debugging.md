@@ -29,5 +29,14 @@
       print("It's cold")
 ```
 ~ ERROR:
+
 The main issue with this code is that the perameters for beign hot and cold aren't propperly defined 
 the probem with the code is that the code does not account for number between 0 and 50 
+<h4>
+  The correct thing to do for this code segment:
+</h4>
+
+
+```ptyhon
+
+```
