@@ -37,6 +37,14 @@ the probem with the code is that the code does not account for number between 0 
 </h4>
 
 
-```ptyhon
 
+```python
+temperature = 75
+
+if temperature > 80:
+  print("It's hot")
+else temperature > 50:
+  print("It's temperate")
+elif temperature < 0:
+  print("It's cold")
 ```
