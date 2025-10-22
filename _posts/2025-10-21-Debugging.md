@@ -23,9 +23,9 @@
   
   if temperature > 80:
       print("It's hot")
-  if temperature > 50 and temperature > 0:
+  elif temperature > 50 :
       print("It's temperate")
-  if temperature < 0:
+  elif temperature < 0:
       print("It's cold")
 ```
 ~ ERROR:
