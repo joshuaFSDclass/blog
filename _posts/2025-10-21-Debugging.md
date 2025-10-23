@@ -1,11 +1,14 @@
 # Debugging 
-<h2 style= "color:red, blod">
+<h2>
   This blog is all about debugging 
 </h2>
 
-
- Hello this blog is to show some debugging exersises that i have done to sharppen my skill (feel free to try them youslef ).
-  
+ Hello this blog is to show some debugging exersises that i have done to sharppen my skill (feel free to try to debug them your self them youslef ).
+ </br>
+ </br>
+ </br>
+ </br>
+ </br>
 # Debugging task 1 
 
   ~ This specific task has to do with if statements.
@@ -33,7 +36,12 @@
 
 The main issue with this code is that the perameters for beign hot and cold aren't propperly defined 
 the probem with the code is that the code does not account for number between 0 and 50 
- 
+
+
+<h2>
+	Try it your self or click to see the answer
+</h2>
+
 	> if we had changed the elif above it we would also have to change the elif to just change
 
 
