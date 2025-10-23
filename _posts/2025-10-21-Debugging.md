@@ -33,7 +33,7 @@
 The main issue with this code is that the perameters for beign hot and cold aren't propperly defined 
 the probem with the code is that the code does not account for number between 0 and 50 
  
-						(if we had changed the elif above it we would also have to change the elif to just change)
+	> if we had changed the elif above it we would also have to change the elif to just change
 
 
 <h4>
@@ -63,7 +63,7 @@ Of the number of challenges liined up in this blog this one was on of the easies
   
   ~ Common errors that are found when writting loop is using the correct datatype when calling functions . 
 <h3>
-  The first segment of code 
+  The second segment of code 
 </h3>
 
 <h4>
@@ -82,3 +82,27 @@ for char in text:
 print(count)
 
 ```
+
+~ ERROR:
+
+
+The issue with this code is that the if statment is meant to check for a space but the quotes have nothing in them so the 
+code is actually checking for empty an empty value.
+
+<h4>
+	The correct veirsion of the code:
+</h4>
+
+```python
+text = "Hello, world, my name is"
+count = 0
+
+for char in text:
+    if char == " ":
+       count += 1
+
+print(count)
+```
+	> The code includes the space between the parenthesese
+
+Some of these issues are very hard to notice at first glance me personaly I bearly notied the fact that parentheses are empty.
