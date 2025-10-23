@@ -66,6 +66,9 @@ Of the number of challenges liined up in this blog this one was on of the easies
   The first segment of code 
 </h3>
 
+<h4>
+	The purpose of the code here is to count the amount of spaces are in a given string
+</h4>
 
 ```python
 
