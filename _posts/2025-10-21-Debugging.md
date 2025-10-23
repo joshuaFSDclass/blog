@@ -3,6 +3,7 @@
   This blog is all about debugging 
 </h2>
 
+
  Hello this blog is to show some debugging exersises that i have done to sharppen my skill (feel free to try them youslef ).
   
 # Debugging task 1 
