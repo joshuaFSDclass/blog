@@ -4,13 +4,9 @@
 </h2>
 
  Hello this blog is to show some debugging exersises that i have done to sharppen my skill (feel free to try to debug them your self them youslef ).
- </br>
- </br>
- </br>
+ 
  <img src="/blog/images/ducky.jpg" alt="debugging partner rubber ducky">
- </br>
- </br>
- </br>
+ 
 # Debugging task 1 
 
   ~ This specific task has to do with if statements.
@@ -38,15 +34,15 @@
 
 The main issue with this code is that the perameters for beign hot and cold aren't propperly defined 
 the probem with the code is that the code does not account for number between 0 and 50 
-
-
+<details>
+<summary>
 <h2>
 	Try it your self or click to see the answer
 </h2>
+</summary>
 
 	> if we had changed the elif above it we would also have to change the elif to just change
-
-
+	
 <h4>
   The correct thing to do for this code segment:
 </h4>
@@ -68,6 +64,8 @@ if temperature < 0:
 
 Of the number of challenges liined up in this blog this one was on of the easiest ones, on to more difficult challenges.
 
+</details>
+
 # Debugging task 2 
 
   ~ This specific task has to do with for loops.
@@ -80,6 +78,7 @@ Of the number of challenges liined up in this blog this one was on of the easies
 <h4>
 	The purpose of the code here is to count the amount of spaces are in a given string
 </h4>
+
 
 ```python
 
@@ -100,6 +99,12 @@ print(count)
 The issue with this code is that the if statment is meant to check for a space but the quotes have nothing in them so the 
 code is actually checking for empty an empty value.
 
+<details>
+<summary>
+<h2>
+	Try it your self or click to see the answer
+</h2>
+</summary>
 <h4>
 	The correct veirsion of the code:
 </h4>
@@ -117,6 +122,8 @@ print(count)
 	> The code includes the space between the parenthesese
 
 Some of these issues are very hard to notice at first glance me personaly I bearly notied the fact that parentheses are empty.
+</details>
+
 
 # Debugging task 3 
 
@@ -149,6 +156,12 @@ for num in range(1, n):
 
 The issue with this segment of code is that odd numbers are being shown as even when they aren't.
 
+<details>
+<summary>
+<h2>
+	Try it your self or click to see the answer
+</h2>
+</summary>
 <h4>
 	The correct veirsion of the code:
 </h4>
@@ -167,4 +180,67 @@ for num in range(1, n):
 
 The solution for this code was easy but often it's hard for biginners to find the mistake deending on the their level of expererience.
 The greater than symbal was to be replaced by the doulbe equal sign to compare the result of the oppereation to zero to determine if the number is odd.
+</details>
 
+# Debugging task 4 
+
+  ~ This specific task has to do with if statements.
+  
+  ~ The most common msitekes that are apparent when debugging is sytax error. 
+<h3>
+  The fourth segment of code 
+</h3>
+
+<h4>
+  The purpose of the code was to calculate the factrial of any given nunber. 
+</h4>
+
+```python
+  num = int(input("Enter an integer: "))
+
+if num < -1:
+  print("No negative numbers.")
+else:
+  result = 1
+  for i in range(1, num):
+    result *= i   
+
+  print("Factorial of " + num + "is" + result)
+```
+~ ERROR:
+
+The error with this code is that concatination doesn't happen with integers, essentialy a type error.
+
+
+<h2>
+	Try it your self or click to see the answer
+</h2>
+
+	> if we had changed the elif above it we would also have to change the elif to just change
+
+
+<h4>
+  The correct thing to do for this code segment:
+</h4>
+
+
+
+```python
+num = int(input("Enter an integer: "))
+
+if num < -1:
+  print("No negative numbers.")
+else:
+  result = 1
+  for i in range(1, num + 1):
+    result *= i   
+
+  print("Factorial of " + str(num) + "is" + str(result))
+
+attempts = 0
+correct_password = "secret"
+```
+
+	> This code difines the perameters of moderate.
+
+Of the number of challenges liined up in this blog this one was on of the easiest ones, on to more difficult challenges.
