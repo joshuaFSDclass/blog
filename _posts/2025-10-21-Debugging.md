@@ -7,6 +7,8 @@
  </br>
  </br>
  </br>
+ <img src="pic_trulli.jpg" alt="debugging partner rubber ducky">
+ </br>
  </br>
  </br>
 # Debugging task 1 
@@ -115,3 +117,54 @@ print(count)
 	> The code includes the space between the parenthesese
 
 Some of these issues are very hard to notice at first glance me personaly I bearly notied the fact that parentheses are empty.
+
+# Debugging task 3 
+
+  ~ This specific task has to do with for loops as well.
+  
+  ~ Common error found is that programmers would use the wrong opperator for some small section of their code. 
+<h3>
+  The second segment of code 
+</h3>
+
+<h4>
+	The purpose of the code here is to determinee weather the number enterd by the user is even or odd.
+</h4>
+
+```python
+
+print("give me a number")
+n = input()
+
+for num in range(1, n):
+    if num % 2 < 0:
+        print(num, "is even.")
+    else:
+        print(num, "is odd.")
+
+```
+
+~ ERROR:
+
+
+The issue with this segment of code is that odd numbers are being shown as even when they aren't.
+
+<h4>
+	The correct veirsion of the code:
+</h4>
+
+```python
+print("give me a number")
+n = int(input())
+
+for num in range(1, n):
+    if num % 2 == 0:
+        print(num, "is even.")
+    else:
+        print(num, "is odd.")
+```
+	> This corrected versionhas the apropraeate opperator in place.
+
+The solution for this code was easy but often it's hard for biginners to find the mistake deending on the their level of expererience.
+The greater than symbal was to be replaced by the doulbe equal sign to compare the result of the oppereation to zero to determine if the number is odd.
+
