@@ -7,7 +7,7 @@
  </br>
  </br>
  </br>
- <img src="/blog/images/ducky.jpg" alt="debugging partner rubber ducky">
+ <img src="images/ducky.jpg" alt="debugging partner rubber ducky">
  </br>
  </br>
  </br>
