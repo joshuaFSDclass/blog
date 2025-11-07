@@ -50,7 +50,7 @@ the probem with the code is that the code does not account for number between 0 
   The correct thing to do for this code segment:
 </h4>
 
-
+<div markdown="1">
 
 ```python
 temperature = 75
@@ -66,7 +66,7 @@ if temperature < 0:
 	> This code difines the perameters of moderate.
 
 Of the number of challenges liined up in this blog this one was on of the easiest ones, on to more difficult challenges.
-
+</div>
 </details>
 
 # Debugging task 2 
