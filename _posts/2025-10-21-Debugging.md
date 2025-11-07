@@ -166,7 +166,6 @@ for num in range(1, n):
 The issue with this segment of code is that odd numbers are being shown as even when they aren't.
 
 
-
 <details>
 <summary>
 <h2>
@@ -254,9 +253,9 @@ else:
 attempts = 0
 correct_password = "secret"
 ```
-</div>
 
 	> This code difines the perameters of moderate.
+</div>
 
 Of the number of challenges liined up in this blog this one was on of the easiest ones, on to more difficult challenges.
 </details>
