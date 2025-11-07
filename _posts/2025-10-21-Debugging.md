@@ -34,6 +34,9 @@
 
 The main issue with this code is that the perameters for beign hot and cold aren't propperly defined 
 the probem with the code is that the code does not account for number between 0 and 50 
+
+
+
 <details>
 <summary>
 <h2>
@@ -99,6 +102,10 @@ print(count)
 The issue with this code is that the if statment is meant to check for a space but the quotes have nothing in them so the 
 code is actually checking for empty an empty value.
 
+
+
+
+
 <details>
 <summary>
 <h2>
@@ -155,6 +162,8 @@ for num in range(1, n):
 
 
 The issue with this segment of code is that odd numbers are being shown as even when they aren't.
+
+
 
 <details>
 <summary>
