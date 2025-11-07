@@ -115,6 +115,7 @@ code is actually checking for empty an empty value.
 <h4>
 	The correct veirsion of the code:
 </h4>
+<div markdown="1">
 
 ```python
 text = "Hello, world, my name is"
@@ -128,6 +129,7 @@ print(count)
 ```
 	> The code includes the space between the parenthesese
 
+</div>
 Some of these issues are very hard to notice at first glance me personaly I bearly notied the fact that parentheses are empty.
 </details>
 
@@ -174,6 +176,7 @@ The issue with this segment of code is that odd numbers are being shown as even 
 <h4>
 	The correct veirsion of the code:
 </h4>
+<div markdown="1">
 
 ```python
 print("give me a number")
@@ -186,7 +189,7 @@ for num in range(1, n):
         print(num, "is odd.")
 ```
 	> This corrected versionhas the apropraeate opperator in place.
-
+</div>
 The solution for this code was easy but often it's hard for biginners to find the mistake deending on the their level of expererience.
 The greater than symbal was to be replaced by the doulbe equal sign to compare the result of the oppereation to zero to determine if the number is odd.
 </details>
@@ -220,10 +223,12 @@ else:
 
 The error with this code is that concatination doesn't happen with integers, essentialy a type error.
 
-
+<details>
+<summray>
 <h2>
 	Try it your self or click to see the answer
 </h2>
+</summray>
 
 	> if we had changed the elif above it we would also have to change the elif to just change
 
@@ -232,7 +237,7 @@ The error with this code is that concatination doesn't happen with integers, ess
   The correct thing to do for this code segment:
 </h4>
 
-
+<div markdown="1">
 
 ```python
 num = int(input("Enter an integer: "))
@@ -249,7 +254,9 @@ else:
 attempts = 0
 correct_password = "secret"
 ```
+</div>
 
 	> This code difines the perameters of moderate.
 
 Of the number of challenges liined up in this blog this one was on of the easiest ones, on to more difficult challenges.
+</details>
