@@ -40,7 +40,7 @@ the probem with the code is that the code does not account for number between 0 
 <details>
 <summary>
 <h2>
-	Try it your self or click to see the answer
+	Try it yourself before you click to see the solution
 </h2>
 </summary>
 
@@ -109,7 +109,7 @@ code is actually checking for empty an empty value.
 <details>
 <summary>
 <h2>
-	Try it your self or click to see the answer
+	Try it yourself before you click to see the solution
 </h2>
 </summary>
 <h4>
@@ -169,7 +169,7 @@ The issue with this segment of code is that odd numbers are being shown as even 
 <details>
 <summary>
 <h2>
-	Try it your self or click to see the answer
+	Try it yourself before you click to see the solution
 </h2>
 </summary>
 <h4>
@@ -225,7 +225,7 @@ The error with this code is that concatination doesn't happen with integers, ess
 <details>	
 <summary>
 <h2>
-	Try it your self or click to see the answer
+	Try it yourself before you click to see the solution
 </h2>
 </summary>
 	
