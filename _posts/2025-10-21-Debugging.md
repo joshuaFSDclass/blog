@@ -3,7 +3,7 @@
   This blog is all about debugging 
 </h2>
 
- Hello this blog is to show some debugging exersises that i have done to sharppen my skill (feel free to try to debug them your self them youslef ).
+ Hello this blog is to show some debugging exersises that i have done to sharppen my skill (feel free to try to debug t them youslef ).
  
  <img src="/blog/images/ducky.jpg" alt="debugging partner rubber ducky">
  
@@ -222,13 +222,13 @@ else:
 
 The error with this code is that concatination doesn't happen with integers, essentialy a type error.
 
-<details>
-<summray>
+<details>	
+<summary>
 <h2>
 	Try it your self or click to see the answer
 </h2>
-</summray>
-
+</summary>
+	
 	> if we had changed the elif above it we would also have to change the elif to just change
 
 
